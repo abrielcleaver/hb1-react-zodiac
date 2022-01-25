@@ -15,7 +15,7 @@ function App() {
       {/* the Footer component needs a year passed in as the `year` prop */}
       {/* pass the zodiac array imported above to the Main component as a `zodiacs` prop */}
       <Header name='QPM'/>
-      <Main zodiac={ zodiac }/>
+      <Main zodiac={zodiac}/>
       <Footer year='2022'/>
     </div>
   );
