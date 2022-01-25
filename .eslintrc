@@ -2,7 +2,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -55,7 +55,7 @@
         "builtinGlobals": true
       }
     ],
-    "semi": ["error", "never"],
+    "semi": ["error", "always"],
     "space-in-parens": ["error"],
     "space-infix-ops": "error",
     "object-curly-spacing": ["error", "always"],
